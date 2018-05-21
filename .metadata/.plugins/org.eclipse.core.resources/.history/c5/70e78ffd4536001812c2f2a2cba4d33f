@@ -1,0 +1,15 @@
+
+public class BreakEx {
+
+	public static void main(String[] args) {
+			//break 연습
+			//반목문을 빠져 나올때 사용
+			//반목분의 조건식과 상관없이 반복문을 종료하고 싶을 때 사용
+			
+		while(true) {
+			break;
+		}
+		System.out.println("123");
+	}
+
+}

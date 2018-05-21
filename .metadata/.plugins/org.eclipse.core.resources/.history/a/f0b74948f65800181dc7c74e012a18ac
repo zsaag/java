@@ -1,0 +1,58 @@
+package test;
+
+public class Time {
+int hour;
+int minute;
+int second;
+public Time(int hour, int minute, int second) {
+	setTime(hour,minute,second);
+}
+public void setTime(int hour, int minute, int second){
+	if(hour > 23 || hour<0) {
+		hour=0;
+	}
+	if(minute > 59 || minute<0) {
+		minute=0;
+	}
+	if(second > 59 || second<0) {
+		second=0;
+	}
+	this.hour =hour;
+	this.minute=minute;
+	this.second=second;
+}
+public void showTime() {
+	System.out.printf("시간은 %02d시 %02분 %02d초 입니다",hour,minute,second);
+	
+}
+public int getHour() {
+	return hour;
+}
+public void setHour(int hour) {
+	this.hour = hour;
+}
+public int getMinute() {
+	return minute;
+}
+public void setMinute(int minute) {
+	this.minute = minute;
+}
+public int getSecond() {
+	return second;
+}
+public void setSecond(int second) {
+	this.second = second;
+}
+public String toString() {
+	String str = hour+"시"+minute+"분"+second+"초 입니다.";
+	return str;
+}
+
+public static void main(String[] args) {
+	Time time = new Time(11,40,15);
+	System.out.println(time);
+}
+
+
+
+}

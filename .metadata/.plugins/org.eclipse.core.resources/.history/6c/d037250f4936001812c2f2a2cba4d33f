@@ -1,0 +1,10 @@
+
+public class BreakEx2 {
+
+	public static void main(String[] args) {
+		//사용자에게 정수를 입력받다가 10의 배수가 입력되면
+		//종료되는 프로그램 작성
+
+	}
+
+}

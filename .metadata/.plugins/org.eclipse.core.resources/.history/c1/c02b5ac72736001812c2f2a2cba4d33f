@@ -1,0 +1,17 @@
+
+public class gogodan {
+
+	public static void main(String[] args) {
+		//구구단 출력하기
+		//2단 출력하기
+	
+	for(int x=2;x<=9;x++) {
+		for(int y=2;y<=9;y++) {
+			System.out.printf("%d * %d = %d\n",x,y,x*y);
+		}
+		
+	}
+
+	}
+
+}

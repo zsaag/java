@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class test {
+
+	public static void main(String[] args) {
+		int number;
+		Scanner input = new Scanner(System.in);
+		System.out.println("숫자를 입력하세요");
+		number = input.nextInt(); 
+			for(int x=1;x<=number;x++) {
+				for(x=1;x<=100;x++) {
+					System.out.println(x);
+				}
+			
+			
+				//for(int y=1;y<=100;y++) {
+				//} System.out.printf("%d", number);
+			}
+	}
+}
+
+

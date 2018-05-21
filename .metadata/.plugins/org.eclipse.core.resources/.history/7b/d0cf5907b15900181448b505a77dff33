@@ -1,0 +1,10 @@
+package test;
+
+public class StudentList {
+	protected Student[] stduent; 
+	
+	public StudentList() {
+		
+		
+	}
+}

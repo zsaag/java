@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class gogodan2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int inNum;
+		Scanner input = new Scanner(System.in);
+		System.out.printf("출력할 구구단을 입력하세요");
+		inNum = input.nextInt();
+		
+		//System.out.printf("%d");
+		for(int n=1;n<9;n++) {
+			//int number;
+			//number = n*2;
+			System.out.println(inNum+"X"+n+"="+(n*inNum));
+		}
+
+	}
+	}
+

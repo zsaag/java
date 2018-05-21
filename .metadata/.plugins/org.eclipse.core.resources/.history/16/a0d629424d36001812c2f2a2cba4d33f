@@ -1,0 +1,27 @@
+import java.util.Scanner;
+public class BreakEx2 {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		
+		int number=1;
+		int x=1;
+		
+		while(x<=number) { 
+			System.out.println("숫자를 입력하세요");
+			number = input.nextInt();
+			x=x+number;
+			if(x<=100) {			
+			break;
+		}System.out.printf("%d ", x);
+		//사용자에게 정수를 입력으면(단, 100미만의 정수를 입력받음)해당정수의 배수를
+		//100이 넘어가면 출력하고 종료
+		/*예) 숫자를 입력하세요
+		 *    21
+		 *    21 42 63 84 105
+		 * */
+		}
+		}
+	}
+
+

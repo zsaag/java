@@ -1,0 +1,22 @@
+
+public class BreakEx {
+
+	public static void main(String[] args) {
+			//break 연습
+			//반목문을 빠져 나올때 사용
+			//반목분의 조건식과 상관없이 반복문을 종료하고 싶을 때 사용
+		int i=1;	
+		while(true) {
+			System.out.println("i:"+i);
+			
+			//10바퀴만 반복하고 싶을 때 >> i가 10이되면 종료
+			if(i==10)
+			{
+			break; //반복문을 빠져나오게 하는 역활
+		}
+			i++;
+	}
+	
+	}
+
+}

@@ -1,0 +1,45 @@
+
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+
+public class MultiServer implements Runnable {
+
+	ServerSocket serverSocket;
+
+	public void run() {
+		try {
+			Set <Socket> setlist= new HashSet<Socket>();
+			InetAddress ia = null;
+
+			while (true) {
+
+				Socket socket = serverSocket.accept();
+
+				setlist.add(socket);
+				
+				setlist.add(socket.getInputStream().toString());
+				setlist.add(socket.getOutputStream().toString());
+				
+
+				// 소켓을 반복
+
+				Iterator it = setlist.iterator();
+
+				while (it.hasNext()) {
+					ia = InetAddress.getByName(it.next());
+
+				}
+			}
+
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+
+	}
+}

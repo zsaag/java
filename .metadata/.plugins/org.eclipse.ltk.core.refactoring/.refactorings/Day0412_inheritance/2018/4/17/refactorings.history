@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Student.java&apos; to &apos;Day0424_Io/src/byteStream&apos;&#x0D;&#x0A;- Original project: &apos;Day0412_inheritance&apos;&#x0D;&#x0A;- Destination element: &apos;Day0424_Io/src/byteStream&apos;&#x0D;&#x0A;- Original element: &apos;Day0412_2.Student.java&apos;" description="Copy compilation unit" destination="=Day0424_Io/src&lt;byteStream" element1="/src&lt;Day0412_2{Student.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1524535981037" units="1" version="1.0"/>
+</session>

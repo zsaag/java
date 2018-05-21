@@ -1,0 +1,7 @@
+package commons;
+
+public enum Member {
+	//열거형 : 값들의 나열
+	NUM,ID,NAME,PW,EMAIL,REG_DATE
+	
+}

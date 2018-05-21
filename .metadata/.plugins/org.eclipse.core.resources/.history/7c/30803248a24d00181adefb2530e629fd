@@ -1,0 +1,22 @@
+package testEvent;
+
+public class add(int input) {
+
+	//array의 마지막 에 data 추가하기
+	//원래 가지고 있던 array보다 크기가 1 큰 배열 만들어서
+	//기존 데이터 복사하고, 마지막에 입력받은 data 추가
+	
+	//기존 배여보다 크기 1큰 배열 생성
+	 tmpArr = new Object[sList.size()+1];
+	
+	//기존 array에 있던 데이터를 newArr 복사
+	 for(int i =0;i<sList.size();i++) {
+		 tmpArr[i] = sList.get(i);
+	 }
+	 //tmpArr의 마지막에 입력받은 데이터 넣기
+	 tmpArr[sList.size()] = input; 	 //tmpArr[array.length-1] = input;
+	 //tmpArr의 주소값을 array에 넣기
+	 sList = tmpArr;
+	
+}
+

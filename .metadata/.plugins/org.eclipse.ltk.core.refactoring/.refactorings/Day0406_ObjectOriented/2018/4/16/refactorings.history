@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;LottoMaker.java&apos; to &apos;Day0419_Generic/src/List&apos;&#x0D;&#x0A;- Original project: &apos;Day0406_ObjectOriented&apos;&#x0D;&#x0A;- Destination element: &apos;Day0419_Generic/src/List&apos;&#x0D;&#x0A;- Original element: &apos;LottoMaker.java&apos;" description="Copy compilation unit" destination="=Day0419_Generic/src&lt;List" element1="/src&lt;{LottoMaker.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1524106980842" units="1" version="1.0"/>
+</session>
